@@ -15,7 +15,7 @@ name = input('Player what is your name? ')
 
 
 while guesses < 5 and guess != the_number  :
-    print('You have {} guesses'.format(number_of_guesses))
+    print('You have {} guesses left'.format(number_of_guesses))
     guess_text = input('{} guess a number between 0 and 100:'.format(name.upper()))
     guess = int(guess_text)
     guesses = guesses + 1
