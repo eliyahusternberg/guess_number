@@ -34,5 +34,5 @@ while guesses < 5 and guess != the_number  :
         print('Excellent work {}, you won it was {}!'.format(name,guess))
 
 if guess != the_number:
-    print('Sorry {}, you are out of guesses the correct number was {}'.format(name,the_number))
+    print('Sorry {}, you are out of guesses, the correct number was {}'.format(name,the_number))
 
